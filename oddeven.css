@@ -1,0 +1,39 @@
+body{
+    background-color: gray;
+}
+.divall{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 350px;
+    background-color: greenyellow;
+    border: 1px solid black;
+}
+.divform{
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.divbtn{
+    
+    border: none;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.btn{
+    background-color: blue;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.divres{
+    
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    background-color: greenyellow;
+}
