@@ -1,0 +1,51 @@
+.divall{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: antiquewhite;
+    height: 100%;
+}
+body{
+    background-color: gray;
+}
+.divinput{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.divradio{
+    margin-left: 20px;
+    display: inline-block;
+}
+.divcheckbox{
+    margin-left: 20px;
+    display: inline-block;
+}
+.divsub{
+    margin-left: 30px;
+}
+.h{
+    margin-top: 10px;
+margin-left: 20px;
+}
+.tablediv{
+    margin-left: 20px;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    
+}
+thead{
+    background-color: black;
+
+}
+.btn{
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+}
+th{
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+}
