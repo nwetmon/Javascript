@@ -1,0 +1,49 @@
+body{
+    background-color: gray;
+}
+.divall{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 250px;
+    background-color: khaki;
+    border: 1px solid black;
+}
+.divform{
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.divbtn{
+    display: inline-block;
+    border: none;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.divres{
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    background-color: khaki;
+}
+.label{
+    margin-left: 20px;
+}
+.option{
+    color: blue;
+}
+.divshow{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;  
+}
