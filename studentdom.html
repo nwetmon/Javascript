@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/studentdom.css">
+        <script src="js/studentdom.js"></script>
+    </head>
+    <body>
+        <div class="divall">
+            <h1 class="h">Student Registration</h1>
+            <div class="divinput">
+                <input type="text" placeholder="Name" id="name"><br><br>
+                <input type="text" placeholder="Phone" id="phone"><br><br>
+                <input type="text" placeholder="Email" id="email"><br><br>
+                <label>Address</label><br>
+                <textarea id="address" name="address" rows="4" cols="50">
+                </textarea>
+                    
+                <br>
+            </div>
+            <div class="divradio">
+                <input type="radio" id="male" value="male" name="gender">
+                <label>Male</label>
+                <input type="radio" id="female" value="female" name="gender">
+                <label>Female</label>
+
+            </div><br>
+            <div class="divcheckbox">
+                <input type="checkbox" id="first" value="501" name="year">
+                <label>501</label>
+                <input type="checkbox" id="sec" value="502" name="year">
+                <label>502</label>
+                <input type="checkbox" id="third" value="503" name="year">
+                <label>503</label>
+            </div><br><br>
+            <div class="divsub">
+                <input type="submit" value="SUBMIT" id="submit" onclick="collectStudata()" class="btn">
+            </div>
+            <div class="tablediv">
+                <table>
+                    <thead  class="table">
+                        <tr>
+                            <th>Name</th>
+                            <th>Phone No</th>
+                            <th>Email</th>
+                            <th>Address</th>
+                            <th>Gender</th>
+                            <th>Year</th>
+                            <th>Major</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table">
+
+                    </tbody>
+                    
+                </table>
+            </div>
+                
+
+            
+        </div>
+    </body>
+</html>
