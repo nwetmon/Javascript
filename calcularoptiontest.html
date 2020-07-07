@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/calculator.css">
+        <script src="js/calculator.js"></script>
+    </head>
+    <body>
+        <div class="divall">
+            
+                <div class="divform">
+                    <input type="text" placeholder="Enter number 1" id="no1"><br><br>
+                    <input type="text" placeholder="Enter number 2" id="no2">
+                </div>
+           
+            <div class="divbtn">
+                <select>
+                    <option value="+" onclick="calculate(value)" id="btnadd" class="option"></option>
+                    <option value="-" onclick="calculate(value)" id="btnsub" class="option"></option>
+                    <option value="*" onclick="calculate(value)" id="btnmul" class="option"></option>
+                    <option value="/" onclick="calculate(value)" id="btndiv" class="option"></option>
+                </select>
+
+            </div>
+            <div class="divres">
+                Result:<label class="label"  id="result"></label>
+            </div>
+            
+    </div>
+    </body>
+</html>
