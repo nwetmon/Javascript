@@ -1,0 +1,462 @@
+body{
+    background-color: whitesmoke;
+}
+.divnav1{
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    
+    background-color: gray;
+    
+}
+.select{
+    border: none;
+    background-color: gray;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    /* margin-left: 20px; */
+    text-decoration: none;
+    margin-top: 20px;
+}
+/* .item{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+} */
+.item1{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-left: 300px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.item2{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.item3{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.item4{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.divnav1a1{
+    margin-left: 30px;
+    text-decoration: none;
+    /* margin-top: 10px; */
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.divnav1a2{
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    /* margin-top: 10px; */
+    font-size: 15px;
+    font-weight: bold;
+}
+/* ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    margin-left: 30px;
+  }
+  
+  li{
+    float: left;
+  }
+  
+  li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 13px;
+    
+  } */
+  .acart{
+      background-color: white;
+     
+      
+  }
+  .divsec{
+      background-color: white;
+      /* display: inline-block; */
+      width: 100%;
+      
+  }
+  .divsecoffirst{
+      display: inline-block;
+  }
+  .divsecoflabel{
+      margin-left: 50px;
+      color: grey;
+      font-size: 30px;
+  }
+
+  .divsecoflavel1{
+      font-size: 50px;
+      font-weight: bold;
+      margin-right: 200px;
+     text-align: center;
+     
+     margin-left: 30px;
+     margin-top: 50px;
+  }
+  .divsearch{
+      margin-left: 250px;
+      display: inline-block;
+      border: 1px solid black;
+      width: 200px;
+      ;
+  }
+  .searchiconlabel{
+      margin-left: 70px;
+      float: right;
+      margin-top: -20px;
+  }
+  .divsecoflavel2{
+      font-size: 20px;
+      font-weight: bold;
+      /* margin-right: 100px; */
+      margin-left: 30px;
+  }
+  .divnav2{
+      display: inline-block;
+      width: 100%;
+      background-color: black;
+  }
+  .nav{
+      background-color: black;
+      width: 100%;
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin-left: 30px;
+  }
+  
+  li{
+    float: left;
+  }
+  
+  li a{
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 14px 10px; */
+    padding: 30px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
+  .divbody{
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+      background-color: white;
+  }
+  .divbodyoffirstimg{
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 50px;
+      height: 300px;
+  }
+  .imgfirst{
+      width: 100%;
+      height: 300px;
+  }
+  .divbodyoffristcard{
+      display: inline-block;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+      background-color: white;
+
+  }
+  .divbodyoffristcard2{
+    display: inline-block;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin-top: 20px;
+    background-color: white;
+
+}
+  .cardbodylabel{
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+
+
+  }
+  .divbodyofnav{
+      
+      /* margin-left: 20px;
+      margin-right: 20px; */
+      margin-top: 20px;
+    background-color: gainsboro;
+  }
+  .bodyul{
+      background-color: gainsboro;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      list-style-type: none;
+      margin-left: 30px;
+     
+  }
+  .bodyli{
+      float: left;
+  }
+  .bodya{
+      text-decoration: none;
+      color: black;
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .bodyaactive{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gray;
+}
+.divseccard{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-block-end: 20px;
+}
+
+/* grid-container{
+    display: grid;
+    grid-column-gap: 20px; 
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: white;
+    padding: 10px;
+
+}
+.grid-item{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}  */
+.pricelabel1{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.pricelabel2{
+    font-size: 10px;
+    color: red;
+    text-decoration: line-through;
+}
+.cardbtn{
+    border: none;
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.priccelabel3{
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+.imgcard1{
+    width: 200px;
+    height: 100px;
+}
+.divdis{
+    display: inline-block;
+}
+.dislabel1{
+    float: left;
+    color: red;
+    font-size: 20px;
+}
+.dislabel2{
+    float: right;
+    color: white;
+    background-color: red;
+    font-size: 16px;
+    margin-right: 8px;
+}
+.divnew{
+    float: right;
+    margin-left: 130px;
+    
+    
+}
+.labelnew{
+    color: black;
+    background-color: gainsboro;
+    font-size: 15px;
+    margin-left: 140px;
+}
+.divsocial1{
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    
+    margin-top: 20px;
+    
+}
+.grid-itvalue{
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px;
+    width: 430px;
+    
+}
+.divsocialimg{
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 400px;
+}
+divsocial{
+    display: inline-block;
+}
+.iconp{
+    border-radius: 50px;
+    background-color: whitesmoke;
+    width: 70px;
+    height: 70px;
+    border: none;
+    
+}
+.sociallabel1{
+    font-size: 20px;
+    color: gray;
+    margin-left: 90px;
+    margin-top: -60px;
+}
+.sociallabel2{
+    margin-left: 90px;
+    font-size: 12px;
+    color: gray;
+    margin-top: -60px;
+}
+.sociallabel{
+    font-size: 20px;
+    color: gray;
+    /* margin-left: 10px; */
+    
+
+}
+.sociallabel3{
+    color: gray;
+}
+.divfooter{
+    background-color: black;
+    height: 400px;
+    display: inline-block;
+    width: 100%;
+    
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+.labelfooter1{
+    margin-left: 20px;
+    font-size: 50px;
+    color: ghostwhite;
+    font-weight: bold;
+    
+
+}
+.labelfooter2{
+    margin-left: 50px;
+    font-size: 30px;
+    color: gray;
+    font-weight: bold;
+    
+}
+.labelfooter3{
+    margin-left: 20px;
+    font-size: 15px;
+    color: gray;
+    
+}
+.labelfooter4{
+    margin-left: 30px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.labelfooter5{
+    margin-left: 55px;
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+.labelfooter6{
+    
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.labelfooter7{
+    
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+}
+.divfooter1{
+    float: left;
+    margin-left: 10px;
+}
+
+.divfooter2{
+    float: right;
+    margin-right: 400px;
+    margin-top: 20px;
+}
+.divfooter3{
+    float: right;
+    margin-right: -520px;
+    margin-top: 20px;
+}
+.divfinal{
+    background-color: white;
+    font-weight: bold;
+}
