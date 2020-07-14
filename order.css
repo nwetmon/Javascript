@@ -1,0 +1,208 @@
+.bodyorder{
+    background-color: #ccc;
+    /* background-image: url("images/banner.jpg"); */
+}
+.menuh1{
+    margin-left: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    margin-top: -50px;
+    
+}
+.likmanu{
+    background-color: #ccc;
+    color: black;
+    margin-left: 10px;
+    width: 100%;
+    
+}
+.likmanu:hover{
+    background-color: orange;
+}
+.linka{
+    color: black;
+   
+    width: 100%;
+}
+
+.selecttest{
+    background-color: #ccc;
+}
+.search{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    
+}
+.divsearch{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: white;
+    width: 42em;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    
+}
+.divshow{
+    display: inlin-block;
+    width: 650px;
+
+}
+.divImg{
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+/* .divrefernce{
+    width: 100px;
+} */
+.pricediv{
+    float: right;
+    margin-right: -190px;
+    margin-top: -40px;
+    background-color: whitesmoke;
+    height: 20px;
+    width: 60px;
+}
+.price{
+    background-color: white;
+    color: red;
+    text-align: center;
+   
+}
+.brnorder{
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+.divbtnorder{
+    margin-left: 740px;
+    margin-top: -30px;
+}
+.divall{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: orange;
+    height: 100%;
+}
+.ultest {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .litest{
+    float: left;
+  }
+  
+  .atest {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* a:hover {
+    background-color: #111;
+  } */
+  .divcategories{
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: inline-block;
+  }
+  .inputtest{
+      border-radius: 5px;
+      width: 500px;
+      height: 50px;
+  }
+  .foodlabel{
+      font-size: 30px;
+      font-style: italic;
+      font-weight: bold;
+  }
+  .selectcategories{
+      color: black;
+      width: 510px;
+      height: 60px;
+      border-radius: 5px;
+  }
+  .btnadd{
+      border-radius: 5px;
+      width: 100px;
+      border: 1px solid orange;
+      height: 40px;
+      background-color: black;
+      color: white;
+  }
+  .tableadd{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 20px;
+    width: 500px;
+    margin-bottom: 30px;
+    margin-left: 250px;
+    margin-right: 20px;
+  }
+  .thadd{
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    border: 1px solid orange;
+    color: white;
+    height: 50px;
+  }
+  .tbodyadd{
+    border: 1px solid orange;
+    border-collapse: collapse; 
+    height: 200px;
+  }
+  .btntypes{
+      width: 350px;
+      height: 50px;
+      background-color: orange;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      font-size: 20px;
+  }
+  /* .divnav{
+      margin-left: 20px;
+      margin-right: 20p;
+  } */
+  .divshowfood{
+      display: inline-block;
+  }
+  .tableord{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* margin-left: 20px; */
+    width: 350px;
+    margin-bottom: 30px;
+    /* margin-left: 10px; */
+    /* margin-right: 20px; */
+  }
+  .thord{
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    border: 1px solid orange;
+    color: white;
+    height: 50px;
+  }
+  .tbodyord{
+    border: 1px solid orange;
+    border-collapse: collapse; 
+    height: 200px;
+  }
