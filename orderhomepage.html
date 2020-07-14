@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/order.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script src="js/order.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="divall">
+            
+                <nav>
+                    <ul class="ultest">
+                        <li class="litest"><a href="" class="atest">Home</a></li>
+                        <li class="litest"><a href="orderpage.html" class="atest">Show Order</a></li>
+                    </ul>
+                </nav>
+                <div class="divcategories">
+                    <label class="foodlabel">Food Items</label><br><br>
+                   
+                <div style="float: left;">
+                    <input type="hidden" id="updshow">
+                    <input type="text" placeholder="Enter food name" class="inputtest" id="fname"><br><br>
+                    <input type="text" placeholder="Enter price" class="inputtest" id="price"><br><br>
+                    <select class="selectcategories" id="categories">
+                        <option value="Juice">Juice</option>
+                        <option value="Pizza">Pizza</option>
+                        <option value="Snacks">Snacks</option>
+                        
+                    </select><br><br>
+                    <select class="selectcategories" id="image">
+                        <option value="images/chicken.jpg">chiken.jpg</option>
+                        <option value="images/strawberryjuice.jpg">strawberryjuice.jpg</option>
+                        <option value="images/orangejuice.jpg">orangejuice.jpg</option>
+                        <option value="images/mangojuice.jpg">mangojuice.jpg</option>
+                        <option value="images/foodpizza.jpg">pizza1.jpg</option>
+                        <option value="images/chiefpizza.jpg">chiefpizza.jpg</option>
+                        <option value="images/seafoodpizza.jpg">seafoodpizza.jpg</option>
+                        <option value="images/pasta.jpg">pasta.jpg</option>
+                        
+                    </select><br><br>
+                    <input type="button" value="ADD" onclick="addItems()" class="btnadd">
+                    <input type="button" value="Show" onclick="show()" class="btnadd">
+                    <input type="button" value="Update" onclick="showUpdate()" class="btnadd">
+                </di>
+                <di style="float: right;margin-right: -400px;margin-top: -300px;">
+                    <img src="images/pasta.jpg" style="border-radius: 90px;width: 350px;height: 300px;">
+                </di>
+                    
+                </div>
+                <div>
+                    <table class="tableadd">
+                        <thead class="thadd">
+                            <tr>
+                                <th class="thadd">Name</th>
+                                <th class="thadd">Price</th>
+                                <th class="thadd">Categories</th>
+                                <th class="thadd">Images</th>
+                                <th class="thadd"></th>
+                            </tr>
+                        </thead>
+                        <tbody id="result" class="tbodyadd">
+
+                        </tbody>
+                        
+                    </table>
+                    
+                </div>
+            
+        </div>
+    </body>
+</html>
