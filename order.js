@@ -277,7 +277,7 @@ function updateItems(key){
         $("#categories").val(arrupdate[i].foodcategories);
         $("#image").val(arrupdate[i].foodImg);
         $("#updshow").val(key);
-        alert("update succeful!");
+        
         }
     }
     
@@ -299,6 +299,7 @@ function showUpdate(){
             items[i].foodcategories=cat;
             items[i].foodImg=img;
             localStorage.setItem("nmafoodItems",JSON.stringify(items));
+            alert("update succeful!");
         }
     }
     
