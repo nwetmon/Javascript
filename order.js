@@ -92,7 +92,7 @@ function showJuice(){
     
     showjuiceArr.forEach(function(value,key){
         if(showjuiceArr[key].foodcategories=="Juice"){
-            orderres+="<div style='display:inline-block;border:1px solid black;border-radius:5px;width:700px;margin-top:20px;'><img src='"+showjuiceArr[key].foodImg+"' style='width:100px;height:100px;float:left;'><h3 style='float:left;margin-left:30px'>"
+            orderres+="<div style='display:inline-block;border:1px solid black;border-radius:5px;width:700px;margin-top:20px;background-color:white;'><img src='"+showjuiceArr[key].foodImg+"' style='width:100px;height:100px;float:left;'><h3 style='float:left;margin-left:30px'>"
                         +showjuiceArr[key].foodname+"</h3><br><p style='float:right;margin-top:-15px;margin-right:20px;background-color:wheat;width:55px;color:red;font-size:20px;text-align:center;'>$"
                         +showjuiceArr[key].foodprice+"</p><br><button style='float:right;margin-top:25px;margin-right:-50px;background-color:red;width:100px;color:white;font-size:20px;text-align:center;border:none;' onclick='orderJuice("+key+")'>+ ORDER</button></div><br>"
         
