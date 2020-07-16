@@ -63,7 +63,7 @@ function showPizza(){
     
         showpizzaArr.forEach(function(value,key){
         if(showpizzaArr[key].foodcategories=="Pizza"){
-            orderres+="<div style='display:inline-block;border:1px solid black;border-radius:5px;width:700px;margin-top:20px;'><img src='"+showpizzaArr[key].foodImg+"' style='width:100px;height:100px;float:left;'><h3 style='float:left;margin-left:30px'>"
+            orderres+="<div style='display:inline-block;border:1px solid black;border-radius:5px;width:700px;margin-top:20px;background-color:white;'><img src='"+showpizzaArr[key].foodImg+"' style='width:100px;height:100px;float:left;'><h3 style='float:left;margin-left:30px'>"
                         +showpizzaArr[key].foodname+"</h3><br><p style='float:right;margin-top:-15px;margin-right:20px;background-color:wheat;width:55px;color:red;font-size:20px;text-align:center;'>$"
                         +showpizzaArr[key].foodprice+"</p><br><button style='float:right;margin-top:25px;margin-right:-50px;background-color:red;width:100px;color:white;font-size:20px;text-align:center;border:none;' onclick='orderPizza("+key+")'>+ ORDER</button></div><br>"
         
@@ -119,7 +119,7 @@ function showSnacks(){
     
         showsnackArr.forEach(function(value,key){
         if(showsnackArr[key].foodcategories=="Snacks"){
-            orderres+="<div style='display:inline-block;border:1px solid black;border-radius:5px;width:700px;margin-top:20px;'><img src='"+showsnackArr[key].foodImg+"' style='width:100px;height:100px;float:left;'><h3 style='float:left;margin-left:30px'>"
+            orderres+="<div style='display:inline-block;border:1px solid black;border-radius:5px;width:700px;margin-top:20px;background-color:white'><img src='"+showsnackArr[key].foodImg+"' style='width:100px;height:100px;float:left;'><h3 style='float:left;margin-left:30px'>"
             +showsnackArr[key].foodname+"</h3><br><p style='float:right;margin-top:-15px;margin-right:20px;background-color:wheat;width:55px;color:red;font-size:20px;text-align:center;'>$"
             +showsnackArr[key].foodprice+"</p><br><button style='float:right;margin-top:25px;margin-right:-50px;background-color:red;width:100px;color:white;font-size:20px;text-align:center;border:none;' onclick='orderSnack("+key+")'>+ ORDER</button></div><br>"
 
